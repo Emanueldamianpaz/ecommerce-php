@@ -1,9 +1,9 @@
 <?
 
-	//  ------------------------------ Connection Data
-	$hostname = 'localhost';
-	$database = 'ecommerce';
-	$username = 'davinci';
-	$password = 'd4v1nc1';
+//  ------------------------------ Connection Data
+$hostname = 'localhost';
+$database = 'davinci';
+$username = '';
+$password = '';
 
 ?>
