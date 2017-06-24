@@ -77,9 +77,12 @@
                 </button>
                 <a class="navbar-brand agileinfo" href="index.php"><span>Ecommerce</span> DAVINCI</a>
                 <ul class="w3header-cart">
-                    <li class="wthreecartaits"><span class="my-cart-icon"><i class="fa fa-cart-arrow-down"
-                                                                             aria-hidden="true"></i><span
-                                    class="badge badge-notify my-cart-badge"></span></span></li>
+                    <li class="wthreecartaits">
+                        <span class="my-cart-icon">
+                            <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                            <span class="badge badge-notify my-cart-badge"></span></span>
+                    </li>
+
                 </ul>
             </div>
             <div id="bs-megadropdown-tabs" class="navbar-collapse collapse">
@@ -195,6 +198,13 @@
                             <input type="hidden" name="display" value="1"/>
                             <button class="w3view-cart" type="submit" name="submit" value=""><i
                                         class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </form>
+                    </li>
+
+                    <li class="wthreecartaits wthreecartaits3 cart cart box_2" style="right: 4%">
+                        <form action="/admin.php" method="post" class="last">
+                            <button class="w3view-cart" type="submit" name="submit" value=""><i
+                                        class="fa fa-lock" aria-hidden="true"></i></button>
                         </form>
                     </li>
                 </ul>

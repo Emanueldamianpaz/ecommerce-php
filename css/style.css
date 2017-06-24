@@ -3421,6 +3421,9 @@ p.single-price-text {
 	li.wthreecartaits {
 		right: 8%;
 	}
+	li.wthreecartaits_1 {
+		right: 4%;
+	}
 	div#my-cart-modal .modal-dialog {
 		width: 60%;
 	}
@@ -4393,6 +4396,9 @@ p.single-price-text {
 		background: rgba(255, 255, 255, 0.95);
 	}
 	li.wthreecartaits.wthreecartaits2 {
+		display: none;
+	}
+	li.wthreecartaits.wthreecartaits3 {
 		display: none;
 	}
 	ul.w3header-cart li.wthreecartaits {
