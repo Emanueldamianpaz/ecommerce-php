@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:davinci</introspection-schemas>
+      <introspection-schemas>*:davinci,davinci1</introspection-schemas>
     </data-source>
   </component>
 </project>
