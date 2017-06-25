@@ -125,7 +125,7 @@
 
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-2">
-                                    <p>TOP</p>
+                                    <p>Torso</p>
                                     <a href="womens.php"><img src="images/women-nav-1.jpg"
                                                               alt="Groovy Apparel"></a>
                                 </div>
@@ -202,7 +202,7 @@
                     </li>
 
                     <li class="wthreecartaits wthreecartaits3 cart cart box_2" style="right: 4%">
-                        <form action="/admin.php" method="post" class="last">
+                        <form action="admin/login.php" method="get" class="last">
                             <button class="w3view-cart" type="submit" name="submit" value=""><i
                                         class="fa fa-lock" aria-hidden="true"></i></button>
                         </form>
