@@ -77,11 +77,14 @@
                 </button>
                 <a class="navbar-brand agileinfo" href="index.php"><span>Ecommerce</span> DAVINCI</a>
                 <ul class="w3header-cart">
-                    <li class="wthreecartaits">
-                        <span class="my-cart-icon">
-                            <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                            <span class="badge badge-notify my-cart-badge"></span></span>
+
+                    <li class="wthreecartaits wthreecartaits2 cart cart box_2">
+                        <form action="admin/login.php" method="get" class="last">
+                            <button class="w3view-cart" type="submit" name="submit" value=""><i
+                                        class="fa fa-lock" aria-hidden="true"></i></button>
+                        </form>
                     </li>
+
 
                 </ul>
             </div>
@@ -192,16 +195,8 @@
                             </button>
                         </form>
                     </li>
-                    <li class="wthreecartaits wthreecartaits2 cart cart box_1">
-                        <form action="#" method="post" class="last">
-                            <input type="hidden" name="cmd" value="_cart"/>
-                            <input type="hidden" name="display" value="1"/>
-                            <button class="w3view-cart" type="submit" name="submit" value=""><i
-                                        class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-                        </form>
-                    </li>
 
-                    <li class="wthreecartaits wthreecartaits3 cart cart box_2" style="right: 4%">
+                    <li class="wthreecartaits wthreecartaits2 cart cart box_2">
                         <form action="admin/login.php" method="get" class="last">
                             <button class="w3view-cart" type="submit" name="submit" value=""><i
                                         class="fa fa-lock" aria-hidden="true"></i></button>
