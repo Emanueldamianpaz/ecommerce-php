@@ -98,19 +98,20 @@
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-2">
                                     <p>Torso</p>
-                                    <a href="mens.php"><img src="images/men-nav-1.jpg" alt="Groovy Apparel"></a>
+                                    <a href="mens.php?id_type=1"><img src="images/men-nav-1.jpg"
+                                                                      alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-3">
                                     <p>Pantalon</p>
-                                    <a href="mens.php"><img src="images/men-nav-2.jpg"
-                                                            alt="Groovy Apparel"></a>
+                                    <a href="mens.php?id_type=2"><img src="images/men-nav-2.jpg"
+                                                                      alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-4">
                                     <p>Accesorios</p>
-                                    <a href="mens_accessories.php"><img src="images/men-nav-3.jpg"
-                                                                        alt="Groovy Apparel"></a>
+                                    <a href="mens.php?id_type=3""><img src="images/men-nav-3.jpg"
+                                                                       alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="clearfix"></div>
