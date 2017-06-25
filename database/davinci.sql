@@ -51,11 +51,10 @@ CREATE TABLE `products` (
   `name` varchar(45) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `stock` int(11) DEFAULT NULL,
-  `imageName` varchar(45) DEFAULT NULL,
   `price` double DEFAULT NULL,
   `id_type` int(11) DEFAULT NULL,
   `size` varchar(45) DEFAULT NULL,
-  `starts` int(11) DEFAULT NULL,
+  `stars` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `products_typeProducts_id_fk` (`id_type`),
   CONSTRAINT `products_typeProducts_id_fk` FOREIGN KEY (`id_type`) REFERENCES `typeProducts` (`id`)
@@ -68,7 +67,7 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` (`id`, `name`, `description`, `stock`, `imageName`, `price`, `id_type`, `size`, `starts`) VALUES (1,'Sweater','Un suéter (del inglés sweater, \'para sudar\') es una prenda de vestir de punto, frecuentemente de lana, algodón o telas sintéticas, la cual cubre el tronco y extremidades superiores. Por su grueso tejido es usado normalmente como prenda de abrigo.',100,'1',699,1,'XL',4),(2,'Grey T-Shirt','Prenda de ropa interior o deportiva, ligera, de punto, de hechura recta, sin cuello y con escote de distinto tipo, de manga larga, corta o sin mangas, que cubre el cuerpo hasta la cadera o medio muslo.',500,'2',200,1,'L',4),(3,'White T-Shirt','Prenda de ropa interior o deportiva, ligera, de punto, de hechura recta, sin cuello y con escote de distinto tipo, de manga larga, corta o sin mangas, que cubre el cuerpo hasta la cadera o medio muslo.',5,'3',200,1,'L',5),(4,'Demin Jacket','Chaqueta es una prenda de vestir de calle ajustada al torso, con manga larga, solapas y bolsillos, tanto interiores como exteriores, abierta por delante con una botonadura, que permite llevarse abierta o cerrada',10,'4',1200,1,'M',3),(5,'Blue Jeans','El jean es un pantalón tan popular en el mundo entero que, muy probablemente, la mayoría de personas tenga alguno entre su vestimenta habitual.',200,'5',900,2,'L',4),(6,'Green Trousers','Los trousers son una tendencia ideal para el día a día, ya que se pueden combinar con cualqueir tipo de zapatos',99,'6',800,2,'M',5),(7,'Red Shorts','El pantalón corto (también llamado short, corto en inglés) es una prenda de vestir usada tanto por varones como por mujeres que cubre las piernas',150,'7',300,2,'S',3);
+INSERT INTO `products` (`id`, `name`, `description`, `stock`, `price`, `id_type`, `size`, `stars`) VALUES (1,'Sweater','Un suéter (del inglés sweater, \'para sudar\') es una prenda de vestir de punto, frecuentemente de lana, algodón o telas sintéticas, la cual cubre el tronco y extremidades superiores. Por su grueso tejido es usado normalmente como prenda de abrigo.',100,699,1,'XL',4),(2,'Grey T-Shirt','Prenda de ropa interior o deportiva, ligera, de punto, de hechura recta, sin cuello y con escote de distinto tipo, de manga larga, corta o sin mangas, que cubre el cuerpo hasta la cadera o medio muslo.',500,200,1,'L',4),(3,'White T-Shirt','Prenda de ropa interior o deportiva, ligera, de punto, de hechura recta, sin cuello y con escote de distinto tipo, de manga larga, corta o sin mangas, que cubre el cuerpo hasta la cadera o medio muslo.',5,200,1,'L',5),(4,'Demin Jacket','Chaqueta es una prenda de vestir de calle ajustada al torso, con manga larga, solapas y bolsillos, tanto interiores como exteriores, abierta por delante con una botonadura, que permite llevarse abierta o cerrada',10,1200,1,'M',3),(5,'Blue Jeans','El jean es un pantalón tan popular en el mundo entero que, muy probablemente, la mayoría de personas tenga alguno entre su vestimenta habitual.',200,900,2,'L',4),(6,'Green Trousers','Los trousers son una tendencia ideal para el día a día, ya que se pueden combinar con cualqueir tipo de zapatos',99,800,2,'M',5),(7,'Red Shorts','El pantalón corto (también llamado short, corto en inglés) es una prenda de vestir usada tanto por varones como por mujeres que cubre las piernas',150,300,2,'S',3);
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -136,4 +135,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-24 21:31:29
+-- Dump completed on 2017-06-24 22:34:32

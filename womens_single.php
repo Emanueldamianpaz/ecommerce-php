@@ -13,17 +13,17 @@ include_once("partials/header.php");
                         <div class="flexslider">
                             <ul class="slides">
                                 <li data-thumb="images/s11.jpg">
-                                    <div class="thumb-image detail_images"><img src="images/s11.jpg"
+                                    <div class="thumb-image detail_images"><img src="images/s11_1.jpg"
                                                                                 data-imagezoom="true"
                                                                                 class="img-responsive"
                                                                                 alt="Groovy Apparel"></div>
                                 </li>
                                 <li data-thumb="images/s12.jpg">
-                                    <div class="thumb-image"><img src="images/s12.jpg" data-imagezoom="true"
+                                    <div class="thumb-image"><img src="images/s11_2.jpg" data-imagezoom="true"
                                                                   class="img-responsive" alt="Groovy Apparel"></div>
                                 </li>
                                 <li data-thumb="images/s13.jpg">
-                                    <div class="thumb-image"><img src="images/s13.jpg" data-imagezoom="true"
+                                    <div class="thumb-image"><img src="images/s11_3.jpg" data-imagezoom="true"
                                                                   class="img-responsive" alt="Groovy Apparel"></div>
                                 </li>
                             </ul>

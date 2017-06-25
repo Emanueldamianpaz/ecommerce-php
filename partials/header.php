@@ -208,3 +208,5 @@
         </div>
     </nav>
     <!-- //Navigation -->
+
+<?php include_once("database/connection.php"); ?>
