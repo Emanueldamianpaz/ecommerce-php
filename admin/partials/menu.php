@@ -13,7 +13,6 @@
                 <ul>
                     <li><a href="products.php"><i class="glyphicon glyphicon-list"></i> Listado</a></li>
                     <li><a href="createProduct.php"><i class="glyphicon glyphicon-cloud-upload"></i> Agregar</a></li>
-                    <li><a href="deleteProduct.php"><i class="glyphicon glyphicon-remove"></i> Eliminar</a></li>
 
                 </ul>
             </li>
@@ -26,7 +25,6 @@
                 <ul>
                     <li><a href="users.php"><i class="glyphicon glyphicon-list"></i> Listado</a></li>
                     <li><a href="createUser.php"><i class="glyphicon glyphicon-cloud-upload"></i> Agregar</a></li>
-                    <li><a href="deleteUser.php"><i class="glyphicon glyphicon-remove"></i> Eliminar</a></li>
 
                 </ul>
             </li>
