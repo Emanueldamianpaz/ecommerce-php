@@ -15,7 +15,7 @@ include_once("partials/header.php");
                     </div>
 
                     <?php
-                    include_once("../database/products.php");
+                    include_once("../database/listProducts.php");
                     ?>
 
 

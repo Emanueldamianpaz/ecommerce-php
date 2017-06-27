@@ -4,21 +4,28 @@ include_once("connection.php");
 
 $msg_edit = '';
 
+$id_product = $_GET["id"];
 
-if (isset($_POST["addProduct"])) {
+$sql = 'SELECT * FROM products where id=' . $id_product;
+$results = $con->query($sql);
+$product = $results->fetch();
+
+if (isset($_POST["editProduct"])) {
 
     $sql =
-        "INSERT INTO products VALUES(" .
-        $_POST["id"] . ",'" .
-        $_POST["name"] . "','" .
-        $_POST["description"] . "'," .
-        $_POST["stock"] . "," .
-        $_POST["price"] . "," .
-        $_POST["id_type"] . ",'" .
-        $_POST["size"] . "'," .
-        $_POST["stars"] . ");";
+        "UPDATE products SET" .
+        " id=" . $_POST["id"] . "," .
+        " name='" . $_POST["name"] . "'," .
+        " description='" . $_POST["description"] . "'," .
+        " stock=" . $_POST["stock"] . "," .
+        " price=" . $_POST["price"] . "," .
+        " id_type=" . $_POST["id_type"] . "," .
+        " size='" . $_POST["size"] . "'," .
+        " stars=" . $_POST["stars"] . "" .
+        " where id=" . $id_product;
 
-    $msg_edit = $con->query($sql) ? '<div class="panel panel-success text-center" style="padding:5px"><h4 class="text-success">Se cargó el producto!</h4></div>' : '<div class="panel panel-danger text-center" style="padding:5px"><h4 class="text-danger">Hubo un problema con la carga!</h4></div>';
+    $msg_edit = $con->query($sql) ? '<div class="panel panel-success text-center" style="padding:5px"><h4 class="text-success">Se modificó el producto!</h4></div>' : '<div class="panel panel-danger text-center" style="padding:5px"><h4 class="text-danger">Hubo un problema con la modificación!</h4></div>';
+
 
 }
 ?>
@@ -28,19 +35,23 @@ if (isset($_POST["addProduct"])) {
         <fieldset>
             <div class="form-group col-lg-2">
                 <label>ID</label>
-                <input class="form-control" placeholder="ID" name="id" type="text" required>
+                <input class="form-control" value="<?php echo $product["id"] ?>" placeholder="ID" name="id" type="text"
+                       required>
             </div>
             <div class="form-group col-lg-4">
                 <label>Name</label>
-                <input class="form-control" placeholder="Name" name="name" type="text" required>
+                <input class="form-control" value="<?php echo $product["name"] ?>" placeholder="Name" name="name"
+                       type="text" required>
             </div>
             <div class="form-group col-lg-2">
                 <label>Stock</label>
-                <input class="form-control" placeholder="Stock" name="stock" type="number" required>
+                <input class="form-control" value="<?php echo $product["stock"] ?>" placeholder="Stock" name="stock"
+                       type="number" required>
             </div>
             <div class="form-group col-lg-2">
                 <label>Price</label>
-                <input class="form-control" placeholder="Price" name="price" type="text" required>
+                <input class="form-control" value="<?php echo $product["price"] ?>" placeholder="Price" name="price"
+                       type="text" required>
             </div>
             <div class="form-group col-lg-2">
                 <label>Type_product</label>
@@ -60,8 +71,9 @@ if (isset($_POST["addProduct"])) {
 
             <div class="form-group col-lg-6">
                 <label>Description</label>
-                <textarea style="resize: none;" class="form-control" name="description" placeholder="Description"
-                          rows="3" required></textarea>
+                <textarea style="resize: none;" class="form-control"
+                          name="description" placeholder="Description"
+                          rows="3" required><?php echo $product["description"] ?></textarea>
             </div>
             <div class="form-group col-lg-3">
                 <label>Size</label>
@@ -76,7 +88,7 @@ if (isset($_POST["addProduct"])) {
             </div>
             <div class="form-group col-lg-3">
                 <label>Stars</label>
-                <select class="form-control" name="stars" placeholder="Stars">
+                <select class="form-control" value="<?php echo $product["stars"] ?>" name="stars" placeholder="Stars">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -87,9 +99,9 @@ if (isset($_POST["addProduct"])) {
             </div>
 
             <div class="col-lg-6">
-                <button name="addProduct" class="btn btn-success col-lg-12">
+                <button name="editProduct" class="btn btn-success col-lg-12">
                     <i class="fa fa-save"></i>
-                    Cargar producto
+                    Editar producto
                 </button>
             </div>
         </fieldset>
