@@ -4,21 +4,15 @@
 
         <div class="col-md-4 agileinfofooter-grid agileinfofooter-grid1">
             <ul>
-                <li><a href="about.php">ABOUT</a></li>
-                <li><a href="mens.php">MEN'S</a></li>
-                <li><a href="mens_accessories.php">MEN'S ACCESSORIES</a></li>
-                <li><a href="womens.php">WOMEN'S</a></li>
-                <li><a href="womens_accessories.php">WOMEN'S ACCESSORIES</a></li>
+                <li><a href="about.php">Acerca</a></li>
+                <li><a href="mens.php">Hombres</a></li>
+                <li><a href="womens.php">Mujeres</a></li>
             </ul>
         </div>
 
         <div class="col-md-4 agileinfofooter-grid agileinfofooter-grid2">
             <ul>
-                <li><a href="stores.php">STORE LOCATOR</a></li>
-                <li><a href="faq.php">FAQs</a></li>
-                <li><a href="codes.php">CODES</a></li>
-                <li><a href="icons.php">ICONS</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
+                <li><a href="contact.php">Contacto</a></li>
             </ul>
         </div>
 

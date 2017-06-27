@@ -32,10 +32,10 @@
                 <td><?php echo $row['permission'] ?></td>
                 <td class="text-center">
                     <div class="btn-group">
-                        <button data-toggle="modal" data-target="#modalEdit" class="btn btn-warning">
+                        <button data-toggle="modal" data-target="#modalEdit" class="btn btn-warning disabled">
                             <i class="glyphicon glyphicon-pencil"></i>
                         </button>
-                        <button data-toggle="modal" data-target="#modalDelete" class="btn btn-danger">
+                        <button data-toggle="modal" data-target="#modalDelete" class="btn btn-danger disabled">
                             <i class="glyphicon glyphicon-remove"></i>
                         </button>
                     </div>
