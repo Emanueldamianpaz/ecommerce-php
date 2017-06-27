@@ -53,10 +53,11 @@
                     </div>
                 </div>
 
-                <div class="already">
-                    <p>¿No tiene cuenta?</p>
-                    <a href="signup.php">Registrarse</a>
-                </div>
+                <!-- TODO punto extra para el final
+                   <div class="already">
+                       <p>¿No tiene cuenta?</p>
+                       <a href="signup.php">Registrarse</a>
+                   </div>-->
             </div>
         </div>
     </div>
