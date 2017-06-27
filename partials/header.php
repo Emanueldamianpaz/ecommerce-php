@@ -202,7 +202,7 @@
 
                     <li class="wthreecartaits wthreecartaits2 cart cart box_2">
                         <form action="admin/login.php" method="get" class="last">
-                            <button class="w3view-cart" type="submit" name="submit" value=""><i
+                            <button class="w3view-cart" type="submit" value=""><i
                                         class="fa fa-lock" aria-hidden="true"></i></button>
                         </form>
                     </li>

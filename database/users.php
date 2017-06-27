@@ -15,7 +15,6 @@
         <tbody>
 
         <?php
-        session_start();
         include_once("connection.php");
 
         $sql = 'SELECT * FROM users INNER JOIN permissions on permissions.id = users.id_permission order by 1';
