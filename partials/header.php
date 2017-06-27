@@ -130,14 +130,14 @@
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-2">
                                     <p>Torso</p>
-                                    <a href="womens.php?id_type=4">
+                                    <a href="womens.php?id_type=5">
                                         <img src="images/women-nav-1.jpg" alt="Groovy Apparel">
                                     </a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-3">
                                     <p>Pantalon</p>
-                                    <a href="womens.php?id_type=5">
+                                    <a href="womens.php?id_type=6">
                                         <img src="images/women-nav-2.jpg" alt="Groovy Apparel"></a>
                                 </div>
 

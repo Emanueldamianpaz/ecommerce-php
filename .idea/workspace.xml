@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad8a6a5-6aee-46bd-bbfe-8b14fb9a0438" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/mens.php" afterPath="$PROJECT_DIR$/database/product_detail.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/mens_single.php" afterPath="$PROJECT_DIR$/database/product_detail_single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mens.php" afterPath="$PROJECT_DIR$/mens.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mens_single.php" afterPath="$PROJECT_DIR$/mens_single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/header.php" afterPath="$PROJECT_DIR$/partials/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/womens.php" afterPath="$PROJECT_DIR$/womens.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/womens_single.php" afterPath="$PROJECT_DIR$/womens_single.php" />
     </list>
     <ignored path="ecommerce-php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -164,17 +157,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mens.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mens.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="25">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_detail.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="davinci.typeProducts" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/762f7030/aad0f366-3e92-4474-925a-9ce673c77ac4/davinci.typeProducts">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_detail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/product_detail.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -206,9 +214,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mens_single.php</find>
-      <find>mens.</find>
-      <find>resultado</find>
       <find>s1</find>
       <find>s2</find>
       <find>s3</find>
@@ -236,6 +241,9 @@
       <find>acce</find>
       <find>F</find>
       <find>f</find>
+      <find>id_type=4</find>
+      <find>id_type=6</find>
+      <find>id_type=5</find>
     </findStrings>
     <replaceStrings>
       <replace>products/men/mens.php</replace>
@@ -308,9 +316,9 @@
         <option value="$PROJECT_DIR$/database/products.php" />
         <option value="$PROJECT_DIR$/database/women.php" />
         <option value="$PROJECT_DIR$/womens_single.php" />
-        <option value="$PROJECT_DIR$/partials/header.php" />
         <option value="$PROJECT_DIR$/womens.php" />
         <option value="$PROJECT_DIR$/database/product_detail.php" />
+        <option value="$PROJECT_DIR$/partials/header.php" />
       </list>
     </option>
   </component>
@@ -589,12 +597,12 @@
       <workItem from="1498346454902" duration="10312000" />
       <workItem from="1498415354055" duration="18388000" />
       <workItem from="1498498971824" duration="1190000" />
-      <workItem from="1498528541818" duration="1698000" />
+      <workItem from="1498528541818" duration="2100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36951000" />
+    <option name="totallyTimeSpent" value="37353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,7 +624,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.4972506" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.4972506" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993808" sideWeight="0.49489394" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -998,32 +1006,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="158" column="55" lean-forward="false" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mens.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/762f7030/aad0f366-3e92-4474-925a-9ce673c77ac4/davinci.typeProducts">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1064,6 +1051,27 @@
             <marker date="1498530230281" expanded="true" signature="52:131" ph="SELECT * FRO... products" />
             <marker date="1498530230281" expanded="true" signature="188:221" ph="SELECT * FRO... products" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/762f7030/aad0f366-3e92-4474-925a-9ce673c77ac4/davinci.typeProducts">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
