@@ -98,14 +98,14 @@
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-2">
                                     <p>Torso</p>
-                                    <a href="mens.php?id_type=1"><img src="images/men-nav-1.jpg"
-                                                                      alt="Groovy Apparel"></a>
+                                    <a href="mens.php?id_type=1">
+                                        <img src="images/men-nav-1.jpg" alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-3">
                                     <p>Pantalon</p>
-                                    <a href="mens.php?id_type=2"><img src="images/men-nav-2.jpg"
-                                                                      alt="Groovy Apparel"></a>
+                                    <a href="mens.php?id_type=2">
+                                        <img src="images/men-nav-2.jpg" alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-mens-nav-agileits w3layouts-mens-nav-agileits-4">
@@ -130,20 +130,21 @@
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-2">
                                     <p>Torso</p>
-                                    <a href="womens.php"><img src="images/women-nav-1.jpg"
-                                                              alt="Groovy Apparel"></a>
+                                    <a href="womens.php?id_type=4">
+                                        <img src="images/women-nav-1.jpg" alt="Groovy Apparel">
+                                    </a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-3">
                                     <p>Pantalon</p>
-                                    <a href="womens.php"><img src="images/women-nav-2.jpg"
-                                                              alt="Groovy Apparel"></a>
+                                    <a href="womens.php?id_type=5">
+                                        <img src="images/women-nav-2.jpg" alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="col-sm-4 w3layouts-nav-agile w3layouts-womens-nav-agileits w3layouts-womens-nav-agileits-4">
                                     <p>Accesorios</p>
-                                    <a href="womens_accessories.php"><img src="images/women-nav-3.jpg"
-                                                                          alt="Groovy Apparel"></a>
+                                    <a href="womens.php?id_type=4">
+                                        <img src="images/women-nav-3.jpg" alt="Groovy Apparel"></a>
                                 </div>
 
                                 <div class="clearfix"></div>
@@ -154,38 +155,40 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown"><span> Accesorios </span></a>
-                        <ul class="dropdown-menu multi multi3">
-                            <div class="row">
+
+                    <!-- TODO Punto extra para el final
+                       <li class="dropdown">
+                           <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown"><span> Accesorios </span></a>
+                           <ul class="dropdown-menu multi multi3">
+                               <div class="row">
 
 
-                                <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-2">
-                                    <p>Hombre</p>
-                                    <a href="mens_accessories.php"><img src="images/other-nav-1.jpg"
-                                                                        alt="Groovy Apparel"></a>
-                                </div>
+                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-2">
+                                       <p>Hombre</p>
+                                       <a href="mens_accessories.php"><img src="images/other-nav-1.jpg"
+                                                                           alt="Groovy Apparel"></a>
+                                   </div>
 
-                                <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-3">
-                                    <p>Mujer</p>
-                                    <a href="womens_accessories.php"><img src="images/other-nav-2.jpg"
-                                                                          alt="Groovy Apparel"></a>
-                                </div>
+                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-3">
+                                       <p>Mujer</p>
+                                       <a href="womens_accessories.php">
+                                           <img src="images/other-nav-2.jpg" alt="Groovy Apparel"></a>
+                                   </div>
 
-                                <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-4">
-                                    <p>Accesorios</p>
-                                    <a href="mens_accessories.php"><img src="images/other-nav-3.jpg"
-                                                                        alt="Groovy Apparel"></a>
-                                </div>
+                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-4">
+                                       <p>Accesorios</p>
+                                       <a href="mens_accessories.php"><img src="images/other-nav-3.jpg"
+                                                                           alt="Groovy Apparel"></a>
+                                   </div>
 
-                                <div class="clearfix"></div>
-                                <p class="promo">Use Promo Code <span>#CFFGTY56</span> and take 30% off the products. <a
-                                            href="#">Details</a></p>
-                            </div>
+                                   <div class="clearfix"></div>
+                                   <p class="promo">Use Promo Code <span>#CFFGTY56</span> and take 30% off the products. <a
+                                               href="#">Details</a></p>
+                               </div>
 
-                        </ul>
-                    </li>
-
+                           </ul>
+                       </li>
+   -->
 
                     <li><a href="about.php">Acerca</a></li>
                     <li class="wthreesearch">

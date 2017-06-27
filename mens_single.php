@@ -10,7 +10,7 @@ include_once("partials/header.php");
 
 
             <?php
-            include_once("database/mens_single.php")
+            include_once("database/product_detail_single.php")
             ?>
 
 

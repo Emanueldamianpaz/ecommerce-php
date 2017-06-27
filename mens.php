@@ -24,7 +24,7 @@ include_once("partials/header.php");
 
 
             <?php
-            include_once("database/mens.php")
+            include_once("database/product_detail.php")
             ?>
 
 
