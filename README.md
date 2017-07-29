@@ -22,4 +22,3 @@ Pagina web de Ecommerce creada con boostrap y php. Posee filtros de busqueda per
 #TODO
 
 * Login de usuario(con session)
-* Revisar email     
