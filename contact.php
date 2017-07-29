@@ -4,6 +4,7 @@ include_once("partials/header.php");
 if (isset($_POST['sendEmail'])) {
     $email_to = "emanuel.paz@davinci.edu.ar";
     $email_subject = "Email de prueba";
+    $email_message = '';
 
     function died($error)
     {
@@ -31,11 +32,8 @@ if (isset($_POST['sendEmail'])) {
     $email_message .= "Message: " . $message . "\n";
 
     // create email headers
-    $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+    $headers = 'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
-    echo "mande";
 }
 
 ?>

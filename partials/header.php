@@ -156,12 +156,12 @@
                     </li>
 
 
-
                     <li><a href="about.php">Acerca</a></li>
                     <li class="wthreesearch">
-                        <form action="#" method="post">
-                            <input type="search" name="Search" placeholder="Search for a Product" required="">
-                            <button type="submit" class="btn btn-default search" aria-label="Left Align">
+                        <form action="products.php" method="post">
+                            <input type="search" name="filterProduct" placeholder="Search for a Product" required="">
+                            <button type="submit" class="btn btn-default search"
+                                    aria-label="Left Align">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </button>
                         </form>
@@ -172,8 +172,9 @@
 
                     <li class="wthreecartaits wthreecartaits2 cart cart box_2">
                         <form action="admin/login.php" method="get" class="last">
-                            <button class="w3view-cart" type="submit" value=""><i
-                                        class="fa fa-lock" aria-hidden="true"></i></button>
+                            <button class="w3view-cart" type="submit" value="">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </button>
                         </form>
                     </li>
                 </ul>

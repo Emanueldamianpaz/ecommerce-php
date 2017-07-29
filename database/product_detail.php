@@ -1,6 +1,12 @@
 <?php
 
-if (!empty($_GET['id_type'])) {
+$filterProduct = $_POST["filterProduct"];
+
+if (!empty($filterProduct)) {
+    $filterProduct = '\'%' . $filterProduct . '%\'';
+    $sql = 'SELECT * FROM products where lower(name) like lower(' . $filterProduct . ') ORDER BY 1 ';
+    $results = $con->query($sql);
+} else if (!empty($_GET['id_type'])) {
 
     $sql = 'SELECT * FROM products where id_type =' . $_REQUEST["id_type"] . ' ORDER BY 1 ';
     $results = $con->query($sql);
