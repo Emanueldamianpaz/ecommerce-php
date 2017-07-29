@@ -6,7 +6,7 @@ $errorMsgLogin = '';
 function verifyLogin($user, $password, &$result, $con)
 {
 
-    $sql = "SELECT id FROM users WHERE username='$user' and password='$password'";
+    $sql = "SELECT id FROM users WHERE username='$user' and password=MD5('$password')";
     $result = $con->query($sql);
     $row = $result->fetchAll();
 
