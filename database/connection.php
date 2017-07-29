@@ -6,7 +6,7 @@ session_start();
 $hostname = 'localhost';
 $database = 'davinci';
 $username = 'root'; // Cambiar segun entorno
-$password = 'despegar'; // Cambiar segun entorno
+$password = ''; // Cambiar segun entorno
 
 
 try {
