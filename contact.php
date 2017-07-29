@@ -1,12 +1,45 @@
 <?php
 include_once("partials/header.php");
+
+if (isset($_POST['sendEmail'])) {
+    $email_to = "emanuel.paz@davinci.edu.ar";
+    $email_subject = "Email de prueba";
+
+    function died($error)
+    {
+        // your error code can go here
+        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "These errors appear below.<br /><br />";
+        echo $error . "<br /><br />";
+        echo "Please go back and fix these errors.<br /><br />";
+        die();
+    }
+
+
+    // validation expected data exists
+    if (!isset($_POST['name']) ||
+        !isset($_POST['message'])
+    ) {
+        died('We are sorry, but there appears to be a problem with the form you submitted.');
+    }
+
+
+    $name = $_POST['name']; // required
+    $message = $_POST['message']; // required
+
+    $email_message .= "First Name: " . $name . "\n";
+    $email_message .= "Message: " . $message . "\n";
+
+    // create email headers
+    $headers = 'From: ' . $email . "\r\n" .
+        'Reply-To: ' . $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+    @mail($email_to, $email_subject, $email_message, $headers);
+    echo "mande";
+}
+
 ?>
 
-<!-- Banner -->
-<div class="agileheader-banner">
-    <img src="images/banner.jpg" alt="Groovy Apparel">
-</div>
-<!-- //Banner -->
 
 </div>
 <!-- //Header -->
@@ -16,35 +49,6 @@ include_once("partials/header.php");
 <div class="w3aitscontactagile">
     <h1>CONTACT</h1>
 
-    <div class="contact-info">
-        <div class="container">
-            <div class="contact-info-grids">
-                <div class="col-md-6 col-sm-6 contact-info-grid contact-info-grid-1">
-                    <img src="images/shop.jpg" alt="Groovy Apparel">
-                </div>
-                <div class="col-md-6 col-sm-6 contact-info-grid contact-info-grid-2">
-                    <h2>Where We Are</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Contrary to popular
-                        belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                        literature from 45 BC, making it over 2000 years old.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Map -->
-<div id="map"></div>
-<!-- //Map -->
-
-
-<div class="wthreeaddressaits">
     <div class="container">
         <div class="col-md-4 wthreeaddressaits-grid wthreeaddressaits-grid1">
             <div class="aitsaddressw3l">
@@ -78,21 +82,18 @@ include_once("partials/header.php");
         </div>
 
         <div class="col-md-8 wthreeaddressaits-grid wthreeaddressaits-grid2">
-            <form action="#" method="post">
-                <input type="text" class="text" name="Name" placeholder="Name" required="">
-                <input type="text" class="text" name="Email" placeholder="Email" required="">
-                <input type="text" class="text" name="Phone" placeholder="Phone" required="">
-                <input type="text" class="text" name="City" placeholder="City" required="">
-                <textarea name="Message" class="text" placeholder="Message" required=""></textarea>
-                <input type="submit" value="SEND MESSAGE">
+            <form action="" method="post">
+                <input type="text" class="text" name="name" placeholder="Name" required="">
+                <textarea name="message" class="text" placeholder="Message" required=""></textarea>
+                <input type="submit" name="sendEmail" value="SEND MESSAGE">
             </form>
         </div>
         <div class="clearfix"></div>
     </div>
+    <!-- //Contact -->
+
+
 </div>
-<!-- //Contact -->
-
-
 
 
 <?php

@@ -156,39 +156,6 @@
                     </li>
 
 
-                    <!-- TODO Punto extra para el final
-                       <li class="dropdown">
-                           <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown"><span> Accesorios </span></a>
-                           <ul class="dropdown-menu multi multi3">
-                               <div class="row">
-
-
-                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-2">
-                                       <p>Hombre</p>
-                                       <a href="mens_accessories.php"><img src="images/other-nav-1.jpg"
-                                                                           alt="Groovy Apparel"></a>
-                                   </div>
-
-                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-3">
-                                       <p>Mujer</p>
-                                       <a href="womens_accessories.php">
-                                           <img src="images/other-nav-2.jpg" alt="Groovy Apparel"></a>
-                                   </div>
-
-                                   <div class="col-sm-4 w3layouts-nav-agile w3layouts-acc-nav-agileits w3layouts-acc-nav-agileits-4">
-                                       <p>Accesorios</p>
-                                       <a href="mens_accessories.php"><img src="images/other-nav-3.jpg"
-                                                                           alt="Groovy Apparel"></a>
-                                   </div>
-
-                                   <div class="clearfix"></div>
-                                   <p class="promo">Use Promo Code <span>#CFFGTY56</span> and take 30% off the products. <a
-                                               href="#">Details</a></p>
-                               </div>
-
-                           </ul>
-                       </li>
-   -->
 
                     <li><a href="about.php">Acerca</a></li>
                     <li class="wthreesearch">
@@ -199,6 +166,9 @@
                             </button>
                         </form>
                     </li>
+
+                    <li><a href="contact.php">Contacto</a></li>
+
 
                     <li class="wthreecartaits wthreecartaits2 cart cart box_2">
                         <form action="admin/login.php" method="get" class="last">
