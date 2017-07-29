@@ -1,18 +1,24 @@
 <?php
 
+$locationPath = str_replace(".php", "", basename($_SERVER['REQUEST_URI']));
+
+
 $filterProduct = $_POST["filterProduct"];
 if (!empty($filterProduct)) {
     $filterProduct = '\'%' . $filterProduct . '%\'';
     $sql = 'SELECT * FROM products where lower(name) like lower(' . $filterProduct . ') ORDER BY 1 ';
-    $results = $con->query($sql);
 } else if (!empty($_GET['id_type'])) {
-
     $sql = 'SELECT * FROM products where id_type =' . $_REQUEST["id_type"] . ' ORDER BY 1 ';
-    $results = $con->query($sql);
-} else {
-    $sql = 'SELECT * FROM products ORDER BY 1';
-    $results = $con->query($sql);
-};
+} else if ($locationPath == 'mens') {
+    $sql = 'select products.* from products inner join typeProducts on typeProducts.id = products.id_type where typeProducts.genre =\'hombre\';';
+} else if ($locationPath == 'womens') {
+    $sql = 'select products.* from products inner join typeProducts on typeProducts.id = products.id_type where typeProducts.genre =\'mujer\';';
+}
+
+echo $sql;
+
+
+$results = $con->query($sql);
 
 if ($results->rowCount() > 0) {
     foreach ($results as $row) {
