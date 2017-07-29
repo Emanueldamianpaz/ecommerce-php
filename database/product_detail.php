@@ -1,7 +1,6 @@
 <?php
 
 $filterProduct = $_POST["filterProduct"];
-
 if (!empty($filterProduct)) {
     $filterProduct = '\'%' . $filterProduct . '%\'';
     $sql = 'SELECT * FROM products where lower(name) like lower(' . $filterProduct . ') ORDER BY 1 ';

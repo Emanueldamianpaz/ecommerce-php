@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-
+header('Content-Type: text/html; charset=UTF-8');
 //  ------------------------------ Connection Data
 $hostname = 'localhost';
 $database = 'davinci';
@@ -16,5 +16,8 @@ try {
     print "¡Error de conexion!: " . $e->getMessage();
     die();
 }
+
+$con->query("SET NAMES UTF8");
+
 
 ?>

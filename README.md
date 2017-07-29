@@ -22,6 +22,5 @@ Pagina web de Ecommerce creada con boostrap y php. Posee filtros de busqueda per
 #TODO
 
 * Login de usuario(con session)
-* Transformar a UTF-8 los datos de la BD
 * Revisar cuando traigo sin parametros en listado.
 * Revisar email     
