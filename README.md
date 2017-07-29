@@ -19,3 +19,11 @@ Pagina web de Ecommerce creada con boostrap y php. Posee filtros de busqueda per
 * Ejecutar script `/database/davinci.sql`. Dentro de un schema `davinci` de MySql.
 * Modificar configuracion `/database/connection.php` por la configuración local del MySql.
 
+#TODO
+
+* Login de usuario(con session)
+* Arreglo de links(no sé que estan rotos)
+* Contacto (formulario de email)
+* Buscador (creo que no anda)
+* Encriptar la contraseña con MD5
+* Transformar a UTF-8 los datos de la BD
